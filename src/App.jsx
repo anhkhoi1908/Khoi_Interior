@@ -1,17 +1,22 @@
-import './App.css'
-import React from 'react'
-import { Route } from 'react-router-dom'  
-import Header from './components/layout/header/header'
-import Footer from './components/layout/footer/footer'
+import './index.css'
+import React, { Fragment } from 'react'
+import { Route, Routes} from 'react-router-dom'  
+import publicRoutes from './routes'
 
 function App() {
 
   return (
-    <>
-      <Route path='/header' component={Header}/>
-      <Route path='/footer' component={Footer}/>
-    </>
-  )
-}
+    <Fragment>
+      <Routes>
+        {publicRoutes.map((el, index) => 
+          <Route 
+            key={index} 
+            path={`${el.path}`} 
+            element={el.element}
+          />)}
+      </Routes>
+    </Fragment>
+  );
+};
 
-export default App
+export default App;
