@@ -1,27 +1,10 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import Logo from "../../../assets/imgs/Logo.png";
+import { socialMedia, innerPage } from "../../../mocks/layout";
 
 const Footer = () => {
-  const socialMedia = [faFacebook, faInstagram, faLinkedin, faTwitter];
-  const innerPage = [
-    {
-      title: "Pages",
-      list: ["About Us", "Our Projects", "Our Team", "Contact Us", "Services"],
-    },
-    {
-      title: "Services",
-      list: ["Kitchan", "Living Area", "Bathroom", "Dinning Hall", "Bedroom"],
-    },
-  ];
-
   return (
     <Fragment>
       <footer>
@@ -30,8 +13,8 @@ const Footer = () => {
             <div className="w-[20rem]">
               <div className="footer_logo">
                 <Link to="#" className="flex items-center">
-                  <img src={Logo} alt="Logo Page" width="40" height="40" />
-                  <span className="font-serif font-bold text-3xl">{"Interior"}</span>
+                  <img src={Logo} alt="Logo Page" width="30" height="30" />
+                  <span className="ml-3 font-serif font-bold text-3xl">{"Interior"}</span>
                 </Link>
               </div>
               <p className="my-8">
