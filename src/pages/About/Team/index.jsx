@@ -4,7 +4,7 @@ import { socialMedia } from "../../../mocks/layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import Team3 from "../../../assets/imgs/team3.png"
-
+    
 const Team = () => {
     return (
         <Fragment>
