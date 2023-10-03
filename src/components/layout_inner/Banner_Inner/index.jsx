@@ -5,7 +5,7 @@ const Banner_Inner = (prop) => {
         <Fragment>
             <div className="relative">
                 <img src={prop.img}/>
-                <div className="bg-white inline-block text-center absolute bottom-0 py-10 px-[7rem] 
+                <div className="bg-white text-[#292F36] inline-block text-center absolute bottom-0 py-10 px-[7rem] 
                 rounded-tl-3xl rounded-tr-3xl left-1/2 translate-x-[-50%]">
                     <h1 className="font-serif font-bold text-4xl">{prop.title}</h1>
                     <p>{prop.subtitle}</p>
