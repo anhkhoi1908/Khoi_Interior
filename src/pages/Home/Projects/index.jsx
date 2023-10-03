@@ -12,7 +12,7 @@ const Project = () => {
                 <ul className="flex w-3/5 flex-wrap mx-auto justify-between mt-20">
                     {projects.map((el, index) => (
                         <li key={index} className="w-[45%] mb-10">
-                            <img src={el.img}/>
+                            <img src={`/src/assets/imgs/${el.image}`} alt="Image project"/>
                             <div className="flex items-center justify-between mt-4">
                                 <div>
                                     <h1 className="font-bold font-serif">{el.title}</h1>

@@ -1,10 +1,4 @@
 import { faRightLong } from "@fortawesome/free-solid-svg-icons"
-import Whatwedo1 from "../../assets/imgs/Whatwedo1.png"
-import Whatwedo2 from "../../assets/imgs/Whatwedo2.png"
-
-import Team1 from "../../assets/imgs/team1.png"
-import Team2 from "../../assets/imgs/team2.png"
-
 
 export const whatwedo = [
     {
@@ -12,25 +6,18 @@ export const whatwedo = [
         des: 'It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.',
         btn: 'Our Concept',
         icon: faRightLong,
-        img: Whatwedo1
+        image: 'Whatwedo1.png'
     },
     {
         title: 'The End Result',
         des: 'It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.',
         btn: 'Our Portfolio',
         icon: faRightLong,
-        img: Whatwedo2
+        image: 'Whatwedo2.png'
     },
 ];
 
-export const team = [
-    {
-        img: Team1,
-    },
-    {
-        img: Team2,
-    },
-];
+export const team = ['team1.png', 'team2.png'];
 
 export const inputs = [
     {

@@ -14,7 +14,7 @@ const Team = () => {
                 <ul className="flex justify-between w-3/5 mx-auto mt-10">   
                     {team.map((el, index) => (
                         <li key={index}>
-                            <img src={el.img} width={220} height={400}/>
+                            <img src={`/src/assets/imgs/${el}`} width={220} height={400} alt="Image member"/>
                         </li>
                     ))}
                     <li className="w-[13.75rem] h-[21rem] bg-white rounded-2xl flex flex-col justify-evenly">
@@ -37,7 +37,7 @@ const Team = () => {
                         </div>
                     </li>
                     <li>
-                        <img src={Team3} width={220} height={400}/>
+                        <img src={Team3} width={220} height={400} alt="Image member"/>
                     </li>
                 </ul>
             </div>

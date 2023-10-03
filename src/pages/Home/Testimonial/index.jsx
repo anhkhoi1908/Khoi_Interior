@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { testimonials } from "../../../mocks/Home";
+// import People1 from "../../../assets/imgs"
 
 const Testimonial = () => {
     return (
@@ -11,7 +12,7 @@ const Testimonial = () => {
                     {testimonials.map((el, index) => (
                         <li key={index} className="bg-white rounded-2xl py-10 px-6 mx-2">
                             <div className="flex items-center mb-8">
-                                <img src={el.img}/>
+                                <img src={`/src/assets/imgs/${el.image}`} width={50} height={50} alt="Image people"/>
                                 <div className="ml-4">
                                     <h1 className="font-bold font-serif">{el.name}</h1>
                                     <p>{el.add}</p>

@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <Fragment>
-            <div id="banner">
-                <div className="relative rounded-bl-[10rem] overflow-hidden">
+            <div id="banner" className="relative">
+                <div className="rounded-bl-[10rem] overflow-hidden">
                     <img src={BannerImg} alt="Banner Image"/>
                 </div>
                 <div className="inline-block w-1/3 absolute top-1/3 left-[20%]">

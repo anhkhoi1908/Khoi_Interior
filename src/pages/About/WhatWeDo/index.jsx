@@ -21,7 +21,7 @@ const Whatwedo = () => {
                                 </button>
                             </div>
                             <div className="w-1/2">
-                                <img src={el.img}/>
+                                <img src={`/src/assets/imgs/${el.image}`}/>
                             </div>
                         </li>
                     ))}
