@@ -33,7 +33,7 @@ const Mail = () => {
                                 id="order_project_message">
                             </textarea>
                         </div>
-                        <button className="bg-[#292F36] rounded-2xl mt-20">
+                        <button className="bg-[#292F36] rounded-2xl mt-20 hover:opacity-75 duration-300">
                             <Link className="px-6 py-4 block">
                                 <span className="mr-4 text-white">{"Send Now"}</span>
                                 <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>

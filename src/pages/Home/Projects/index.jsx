@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { projects } from "../../../mocks/Home";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 
 const Project = () => {
@@ -8,20 +9,30 @@ const Project = () => {
         <Fragment>
             <div className="text-[#292F36]">
                 <h1 className="font-serif font-bold text-4xl text-center mb-4">{"Follow Our Projects"}</h1>
-                <p className="w-2/5 mx-auto text-center">{'It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.'}</p>
-                <ul className="flex w-3/5 flex-wrap mx-auto justify-between mt-20">
+                <p className="w-2/5 mx-auto text-center">
+                {'It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.'}</p>
+                <ul className="flex w-3/5 flex-wrap mx-auto justify-between mt-20 [&>*:nth-child(2)]:rounded-tl-[4rem]
+                [&>*:nth-child(3)]:rounded-br-[4rem]">
                     {projects.map((el, index) => (
-                        <li key={index} className="w-[45%] mb-10">
-                            <img src={`/src/assets/imgs/${el.image}`} alt="Image project"/>
-                            <div className="flex items-center justify-between mt-4">
-                                <div>
-                                    <h1 className="font-bold font-serif">{el.title}</h1>
-                                    <span>{el.fiel}</span>
+                        <li key={index} className="w-[45%] mb-10 hover:scale-105 duration-300">
+                            <Link>
+                                <div className="overflow-hidden">
+                                    <img 
+                                        src={`/src/assets/imgs/${el.image}`} 
+                                        alt="Image project"
+                                        className="duration-300 hover:brightness-75"
+                                    />
                                 </div>
-                                <button className="bg-[#F4F0EC] px-5 py-4 rounded-full">
-                                    <FontAwesomeIcon icon={el.icon}/>
-                                </button>
-                            </div>
+                                <div className="flex items-center justify-between mt-4">
+                                    <div>
+                                        <h1 className="font-bold font-serif">{el.title}</h1>
+                                        <span>{el.fiel}</span>
+                                    </div>
+                                    <button className="bg-[#F4F0EC] px-5 py-4 rounded-full">
+                                        <FontAwesomeIcon icon={el.icon}/>
+                                    </button>
+                                </div>
+                            </Link>
                         </li>
                     ))}
                 </ul>

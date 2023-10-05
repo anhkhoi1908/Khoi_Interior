@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Funiture from "../../../assets/imgs/Funiture.png"
+import { Link } from "react-router-dom";
 
 const About_Us = () => {
     return (
@@ -21,9 +22,11 @@ const About_Us = () => {
                             <p>{"Call Us Anytime"}</p>
                         </div>
                     </div>     
-                    <button className="bg-[#292F36] p-4 rounded-xl mt-8">
-                        <span className="text-white mr-4">{"Get Free Estimate"}</span>
-                        <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>
+                    <button className="bg-[#292F36] p-4 rounded-xl mt-8 hover:opacity-75 duration-300">
+                        <Link>
+                            <span className="text-white mr-4">{"Get Free Estimate"}</span>
+                            <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>
+                        </Link>
                     </button>     
                 </div>
                 <div className="w-1/2">

@@ -1,15 +1,15 @@
 import { React, Fragment } from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { whatwedo } from "../../../mocks/About";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { result } from "../../../mocks/Services";   
 
-const Whatwedo = () => {
+const Result = () => {
     return (
         <Fragment>
-            <div className="mt-[10rem] w-3/5 mx-auto text-[#292F36]">
+           <div className="mt-[10rem] w-3/5 mx-auto text-[#292F36]">
                 <ul>
-                    {whatwedo.map((el, index) => (
-                        <li key={index} className="flex justify-between first:mb-20 last:flex-row-reverse items-center">
+                    {result.map((el, index) => (
+                        <li key={index} className="flex justify-between first:hidden last:flex-row-reverse items-center">
                             <div className="w-2/5">
                                 <h1 className="text-4xl font-serif font-bold">{el.title}</h1>
                                 <p className="my-6">{el.des}</p>
@@ -31,4 +31,4 @@ const Whatwedo = () => {
     );
 };
 
-export default Whatwedo;
+export default Result;
