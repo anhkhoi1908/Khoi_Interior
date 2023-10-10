@@ -11,20 +11,24 @@ export const nav = [
         path: '/'
     },
     {
-        page: 'About',
-        path: '/about'
+        page: 'Pages',
+        path: '/pages'
     },
     {
         page: 'Services',
         path: '/services'
     },
     {
+        page: 'Project',
+        path: '/project'
+    },
+    {
         page: 'Blog',
         path: '/blog'
     },
     {
-        page: 'Pricing',
-        path: '/pricing'
+        page: 'Contact',
+        path: '/contact'
     },
 ];
 

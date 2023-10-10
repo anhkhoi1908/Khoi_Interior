@@ -4,7 +4,7 @@ import { statistic } from "../../../mocks/Home";
 const Statistic = () => {
     return (
         <Fragment>
-            <div className="bg-[#F4F0EC] py-[4rem] mt-[10rem]">
+            <div className="statitic bg-[#F4F0EC] py-[4rem] mt-[10rem]">
                 <ul className="flex w-3/5 justify-between mx-auto">
                     {statistic.map((el, index) => (
                         <li key={index} className="text-center relative before:content-[''] before:absolute before:block 

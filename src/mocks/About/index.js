@@ -17,7 +17,7 @@ export const whatwedo = [
     },
 ];
 
-export const team = ['team1.png', 'team2.png'];
+export const team = ['team1.png', 'team2.png', 'team3.png', 'member3.png'];
 
 export const inputs = [
     {
@@ -37,3 +37,4 @@ export const inputs = [
         title: 'Missing a valid email domain'
     },
 ];
+

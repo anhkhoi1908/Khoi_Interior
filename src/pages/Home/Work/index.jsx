@@ -5,8 +5,8 @@ import { works } from "../../../mocks/Home";
 const Work = () => {
     return (
         <Fragment>
-            <div className="my-[10rem]">
-                <ul className="flex justify-evenly w-4/5 m-auto text-[#292F36]">
+            <div className="work my-[10rem]">
+                <ul className="flex justify-evenly w-4/5 m-auto text-[#292F36] pl-0">
                     {works.map((el, index) => (
                         <li key={index} className="text-center w-[16rem]">
                             <h1 className="font-serif text-2xl font-bold">{el.title}</h1>

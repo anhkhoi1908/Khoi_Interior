@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <Fragment>
-            <div id="banner" className="relative">
+            <div id="banner" className="relative banner">
                 <div className="rounded-bl-[10rem] overflow-hidden">
                     <img src={BannerImg} alt="Banner Image"/>
                 </div>
@@ -17,7 +17,7 @@ const Banner = () => {
                     <p className="my-8">
                         {"There are many variations of the passages of lorem Ipsum fromavailable,variations of the passages."}</p>
                     <button className="bg-[#292F36] rounded-3xl hover:opacity-75 duration-300">
-                    <Link className="p-6 block text-white">
+                    <Link className="p-6 block text-white link">
                         <span className="mr-4">{'Get started'}</span>
                         <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>
                     </Link>

@@ -48,3 +48,29 @@ export const result = [
     },
 ];
 
+export const how_we_do = [
+    {
+        title: 'Concept & Details',
+        content: 'It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.',
+        image_sub: 'howwedosub_1.png',
+        image: 'howwedo1.png',
+    },
+    {
+        title: 'Idea for Work',
+        content: 'It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.',
+        image_sub: 'howwedosub_2.png',
+        image: 'howwedo2.png',
+    },
+    {
+        title: 'Design',
+        content: 'It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.',
+        image_sub: 'howwedosub_3.png',
+        image: 'howwedo3.png',
+    },
+    {
+        title: 'Perfection',
+        content: 'It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.',
+        image_sub: 'howwedosub_4.png',
+        image: 'howwedo4.png',
+    },
+]

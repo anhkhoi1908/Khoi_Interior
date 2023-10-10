@@ -12,7 +12,7 @@ const Mail = () => {
                 <h1 className="font-serif font-bold text-4xl">{"a productive talk."}</h1>
                 <form className="gift_card_order_form w-3/5 mx-auto mt-20">
                     <fieldset>
-                        <ul className="flex justify-between">
+                        <ul className="flex justify-between pl-0">
                             {inputs.map((el, index) => (
                                 <li key={index} className="border-b-2 border-black w-[45%]">
                                     <input className="outline-none py-4 rounded-xl w-full"
@@ -21,11 +21,9 @@ const Mail = () => {
                                         name={el.name}
                                         placeholder={el.placeholder}
                                         title={el.title}
-                                        required
-                                    />
+                                        required/>
                                 </li>
-                            ))}
-                        </ul>
+                        ))}</ul>
                         <div className="border-b-2 border-black">
                             <textarea className="w-full outline-none py-6 mt-2" 
                                 placeholder="Hello I'm interested in..." 
@@ -34,7 +32,7 @@ const Mail = () => {
                             </textarea>
                         </div>
                         <button className="bg-[#292F36] rounded-2xl mt-20 hover:opacity-75 duration-300">
-                            <Link className="px-6 py-4 block">
+                            <Link className="px-6 py-4 block link">
                                 <span className="mr-4 text-white">{"Send Now"}</span>
                                 <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>
                             </Link>

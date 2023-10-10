@@ -14,7 +14,7 @@ const Whatwedo = () => {
                                 <h1 className="text-4xl font-serif font-bold">{el.title}</h1>
                                 <p className="my-6">{el.des}</p>
                                 <button className="bg-[#292F36] rounded-2xl hover:opacity-75 duration-300">
-                                    <Link className="px-6 py-4 block">
+                                    <Link className="px-6 py-4 block link">
                                         <span className="mr-4 text-white">{el.btn}</span>
                                         <FontAwesomeIcon icon={el.icon} className="text-[#c9a575]"/>
                                     </Link>
