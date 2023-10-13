@@ -1,0 +1,31 @@
+.pagination li {
+    margin: 0 0.5rem;
+    cursor: default;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: #CDA274 !important;
+    border-color: #CDA274 !important;
+    color: white !important;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link
+{
+    padding: 0.4rem 1rem;
+    border-radius: 100% !important;
+}
+
+.pagination .page-link {
+    color: black;
+    border-radius: 100%;
+    padding: 0.4rem 0.9rem;
+    border-color: #CDA274;
+}
+
+.pagination .page-link:hover {
+    color: #CDA274;
+    background-color: transparent;
+    border-color: #CDA274;
+}
+

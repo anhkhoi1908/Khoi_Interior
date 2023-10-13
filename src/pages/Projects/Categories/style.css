@@ -1,0 +1,21 @@
+.tab-item {
+    padding: 1rem 3.75rem;
+    text-align: center;
+    cursor: default;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.tab-item.active {
+    color: #fff;
+    background-color: #c9a575;
+    border-radius: 1rem;
+}
+
+.tab-pane {
+    display: none !important;
+}
+
+.tab-pane.active {
+    display: flex !important;
+}

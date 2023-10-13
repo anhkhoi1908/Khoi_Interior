@@ -16,8 +16,8 @@ const Team = () => {
                         <li key={index} className="team-member">
                             <div>
                                 <img src={`/src/assets/imgs/${el}`} width={220} height={400} alt="Image member"/>
-                                <div className="team-member-hidden w-[13.75rem] h-[21rem] bg-white rounded-2xl flex-col 
-                                justify-evenly hidden">
+                                <div className="team-member-hidden px-[2rem] w-[13.75rem] h-[21rem] bg-white rounded-2xl flex-col 
+                                justify-evenly hidden   ">
                                     <div>
                                         <h1 className="font-serif font-bold text-xl">{"Nattasha Julie"}</h1>
                                         <p>{"Design, Australia"}</p>

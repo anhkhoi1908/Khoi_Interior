@@ -1,23 +1,25 @@
 import { React, Fragment } from "react"
-import Banner_Inner from "../../components/layout_inner/Banner_Inner";
-import Banner_Services from "../../assets/imgs/Banner_service.jpg"
+import Banner_Inner from "../../../components/layout_inner/Banner_Inner";
+import Banner_Services_Detail from '../../../assets/imgs/Banner_service.jpg'
 import Details from "./Details";
-import Brands from "../Home/Brands"
+import Brands from "../../Home/Brands";
 import Points from "./Points";
-import Statistic from "../Home/Statistic"
-import Result from "./Result";
+import Statistic from "../../Home/Statistic";
+import Results from "./Result";
+import Video from "./Video";
 
-const Service_Detail = () => {
+const Service_Detail_Page = () => {
     return (
         <Fragment>
-            <Banner_Inner img={Banner_Services} title={"Service Single"} subtitle={"Home / Service Single"}/>   
+            <Banner_Inner img={Banner_Services_Detail} title={"Service Single"} subtitle={"Home / Service Single"}/>   
             <Details/>
             <Brands/>
+            <Video/>
             <Points/>
-            <Result/>
+            <Results/>
             <Statistic/>
         </Fragment>
     );
 };
 
-export default Service_Detail;
+export default Service_Detail_Page;

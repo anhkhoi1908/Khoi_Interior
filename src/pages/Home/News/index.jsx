@@ -12,7 +12,7 @@ const News = () => {
                 <ul className="flex w-3/5 mx-auto justify-between mt-20">
                     {news.map((el, index) => (
                         <li key={index} className="mb-10 w-[32%]">
-                            <Link className="block p-[1rem] link hover:bg-[#E7E7E7] hover:scale-105 rounded-[2.5rem] border-2 duration-300">
+                            <Link className="block p-[1rem] link hover:bg-[#E7E7E7] rounded-[2.5rem] border-2 duration-300">
                                 <img src={`/src/assets/imgs/${el.image}`} alt="Image new"/>
                                 <h2 className="font-serif font-bold text-[1.4rem] mt-4">{el.content}</h2>
                                 <div className="flex items-center justify-between mt-4">

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { detail_content } from "../../../mocks/Services";
+import { detail_content } from "../../../../mocks/Services";
 
 const Details = () => {
     return (

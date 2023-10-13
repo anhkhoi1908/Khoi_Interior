@@ -8,7 +8,7 @@ const ErrorPage = () => {
     return (
         <Fragment>
             <div className="flex justify-end">
-            <div className="flex justify-end items-center w-4/5 h-[h-[65.125rem]]">
+            <div className="flex justify-end items-center w-4/5">
                 <div className="w-2/5">
                     <h1 className="font-serif font-bold text-[#c9a575] text-[10rem]">{'404'}</h1>
                     <h2 className="font-serif font-bold text-2xl">{'We are sorry, but the page you requested was not found'}</h2>

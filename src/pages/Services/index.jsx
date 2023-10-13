@@ -10,7 +10,7 @@ const ServicePage = () => {
         <Fragment>
             <Banner_Inner img={Banner_Service_Main} title={"Services"} subtitle={"Home / Services"}/>   
             <Work/>
-            <Work/>
+            <div className="mt-[-10rem]"><Work/></div>
             <HowWeWork/>
             <Contact/>
         </Fragment>

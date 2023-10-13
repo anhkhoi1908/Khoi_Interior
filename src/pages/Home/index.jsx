@@ -1,7 +1,7 @@
 import { React, Fragment } from "react"
 import Banner from "./Banner";
 import Brand from "./Brands";
-import Project from "./Projects";
+import Project from "./Project";
 import Statistic from "./Statistic";
 import News from "./News";
 import Contact from "./Conact";

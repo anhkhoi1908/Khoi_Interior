@@ -11,16 +11,16 @@ export const nav = [
         path: '/'
     },
     {
-        page: 'Pages',
-        path: '/pages'
-    },
-    {
         page: 'Services',
         path: '/services'
     },
     {
         page: 'Project',
-        path: '/project'
+        path: '/projects'
+    },
+    {
+        page: 'Teams',
+        path: '/team'
     },
     {
         page: 'Blog',

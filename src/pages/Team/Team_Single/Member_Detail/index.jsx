@@ -23,7 +23,7 @@ const Member_Detail = () => {
                     <ul className="flex pl-0">
                         {socialMedia.map((el, index) => (
                         <li key={index} className="mr-8">
-                            <Link className="link"><FontAwesomeIcon icon={el}/></Link>
+                            <Link className="link"><FontAwesomeIcon icon={el} size="2x"/></Link>
                         </li>
                     ))}</ul>
                 </div>
