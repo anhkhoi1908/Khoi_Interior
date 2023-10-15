@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className="rounded-bl-[10rem] overflow-hidden">
                     <img src={BannerImg} alt="Banner Image"/>
                 </div>
-                <div className="inline-block w-1/3 absolute top-1/3 left-[20%]">
+                <div className="inline-block w-1/3 absolute top-[50%] translate-y-[-50%] left-[20%]">
                     <h1 className="font-serif text-6xl text-[#292F36] font-bold">{"Let Your Home"}</h1>
                     <h1 className="font-serif text-6xl text-[#292F36] font-bold">{"Be Unique"}</h1>
                     <p className="my-8">

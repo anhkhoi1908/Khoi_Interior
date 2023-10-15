@@ -4,13 +4,15 @@ import { Route, Routes} from 'react-router-dom'
 import publicRoutes from './routes'
 import Header from './components/layout/header'
 import Footer from './components/layout/footer'
-import ErrorPage from './pages/Error'
+import BackToTop from './components/BackToTop'
+// import ErrorPage from './pages/Error'
 
 function App() {
 
   return (
     <Fragment>
       <Header/>
+      <BackToTop/>  
       <Routes>
         {publicRoutes.map((el, index) => 
           <Route 

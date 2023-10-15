@@ -33,8 +33,8 @@ const ContactMe = () => {
                             </textarea>
                         </div>
                         <div className="flex items-center justify-center mt-10">
-                            <input type="checkbox" className="accent-[#c9a575] w-[2rem] h-[1rem]"/>
-                            <label className="text-[#c9a575]">
+                            <input type="checkbox" className="accent-[#c9a575] w-[2rem] h-[1rem]" id="Save-info"/>
+                            <label htmlFor="Save-info" className="text-[#c9a575]">
                             {'Save my name, email, and website in this browser for the next time I comment.'}</label>
                         </div>
                         <button className="bg-[#292F36] rounded-2xl mt-10 hover:opacity-75 duration-300">
