@@ -4,7 +4,7 @@ import Banner_Blog from "../../assets/imgs/Banner_blog.png"
 import LatestPost from "./LatestPost";
 import News from "./News";
 import { getBlogs, getLength } from "../../mocks/Blog";
-import Pagination_Mock from "../../components/Pagination/main";
+import Pagination_Mock from "../../components/Pagination/main.jsx"
 
 const BlogPage = () => {
     const [page, setPage] = useState(1);

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Project = () => {
     return (
         <Fragment>
-            <div className="projects text-[#292F36]">
+            <div id="projects" className="text-[#292F36]">
                 <h1 className="font-serif font-bold text-4xl text-center mb-4">{"Follow Our Projects"}</h1>
                 <p className="w-2/5 mx-auto text-center">
                 {'It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.'}</p>

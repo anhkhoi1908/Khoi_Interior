@@ -1,0 +1,138 @@
+@media only screen and (max-width: 46.1875em) {
+        /* Banner */
+        #banner h1 {
+            font-size: 2.5rem;
+        }
+    
+    
+        /* work */
+        #work ul {
+            justify-content: center;
+        }
+    
+        /* About_us */
+        #about_us {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        #about_us .about_us_info {
+            width: 100%;
+            margin-top: 5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #about_us .about_us_img {
+            width: 80%;
+        }
+    
+    
+        /* Projects */
+        #projects ul {
+            display: flex;
+            justify-content: center;
+        }
+        #projects ul li {
+            width: 80%;
+        }
+    
+    
+        /* Testimonial */
+        #testimonial ul {
+            display: flex;
+            flex-wrap: wrap;
+        }    
+        #testimonial ul li {
+            margin-bottom: 1rem;
+        }
+    
+    
+        /* news */
+        #news ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #news ul li {
+            width: 64%;
+        }
+
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* Banner */
+    #banner h1 {
+        font-size: 2.5rem;
+    }
+
+
+    /* work */
+    #work ul {
+        justify-content: center;
+    }
+
+    /* About_us */
+    #about_us {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #about_us .about_us_info {
+        width: 100%;
+        margin-top: 5rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about_us .about_us_img {
+        width: 80%;
+    }
+
+
+    /* Projects */
+    #projects ul {
+        display: flex;
+        justify-content: center;
+    }
+    #projects ul li {
+        width: 80%;
+    }
+
+
+    /* Testimonial */
+    #testimonial ul {
+        display: flex;
+        flex-wrap: wrap;
+    }    
+    #testimonial ul li {
+        margin-bottom: 1rem;
+    }
+
+
+    /* news */
+    #news ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #news ul li {
+        width: 64%;
+    }
+
+
+    /* statistic */
+    #statistic ul li:before {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    
+}
