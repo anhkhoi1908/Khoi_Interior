@@ -8,6 +8,7 @@ import Contact from "./Conact";
 import Work from "./Work";
 import About_Us from "./About_us";
 import Testimonial from "./Testimonial";
+import './Style.css'
 
 const HomePage = () => {
     return (

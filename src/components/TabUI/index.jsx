@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Content, Tab } from "./main.js";
 import { categories } from "../../mocks/Projects";
-import './style.css'
 import { 
     Category_bathroom,
     Category_bedroom,
@@ -24,15 +23,15 @@ const Categories = () => {
         <Fragment>
             <div className="w-3/5 mx-auto mt-[10rem]">
                 <div>
-                    <ul className="pl-0 w-4/5 mx-auto tabs flex justify-center items-center border-2 border-[#c9a575] 
-                    rounded-2xl mb-20 font-bold">
+                    <ul className="pl-0 mx-auto tabs flex justify-center items-center border-2 border-[#c9a575] 
+                    rounded-2xl mb-20 font-bold w-4/5">
                         {categories.map((el, index) => (
                             <Tab 
                                 key={index} 
                                 onClick={handleClick} 
                                 active={active === index} 
                                 id={index} 
-                                className="tab-item">{el}
+                                className="tab-item w-1/4">{el}
                             </Tab>
                         ))}
                     </ul>

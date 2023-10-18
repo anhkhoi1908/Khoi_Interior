@@ -42,7 +42,7 @@ const Footer = () => {
               ))}
             </div>
             <div className="w-[14rem]"> 
-              <h1 className="text-2xl font-bold">{"Contact"}</h1>
+              <h1 className="text-2xl font-bold font-serif">{"Contact"}</h1>
               <p className="mt-6">{"55 Earst Brichwood Ave. Brooklyn, New York 11201"}</p>
               <p className="mt-6">{"contact@interior.com"}</p>
               <p className="mt-6">{"(123) 456 - 789"}</p>

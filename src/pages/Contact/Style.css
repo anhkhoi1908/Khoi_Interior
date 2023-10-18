@@ -1,0 +1,51 @@
+@media only screen and (max-width: 46.1875em) {
+    #block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #contact .contact_inputs {
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 5rem;
+    }
+    #contact .contact_inputs li {
+        width: 70%;
+    }
+    #contact .text-area {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #contact .contact_inputs {
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 5rem;
+    }
+    #contact .contact_inputs li {
+        width: 70%;
+    }
+    #contact .text-area {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+
+}

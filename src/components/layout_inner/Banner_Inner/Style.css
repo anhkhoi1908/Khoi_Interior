@@ -1,0 +1,35 @@
+@media only screen and (max-width: 46.1875em) {
+    #banner_inner div {
+        height: 50%;
+        padding: 0.5rem 1rem 2rem;
+    }
+    #banner_inner h1 {
+        font-size: 1rem;
+        margin-bottom: 0;
+        line-height: 1.5rem;
+    }
+    #banner_inner span {
+        margin-bottom: 0;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #banner_inner div {
+        height: 50%;
+        padding: 0 1rem 2rem;
+    }
+    #banner_inner h1 {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    #banner_inner span {
+        margin-bottom: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+
+}

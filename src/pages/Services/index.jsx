@@ -4,6 +4,7 @@ import Banner_Service_Main from "../../assets/imgs/Banner_service_main.jpg"
 import Work from "../Home/Work";
 import HowWeWork from "./HowWeWork";
 import Contact from "../Home/Conact"
+import './Style.css'
 
 const ServicePage = () => {
     return (

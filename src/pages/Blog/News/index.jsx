@@ -7,9 +7,9 @@ const News = (props) => {
 
     return (
         <Fragment>
-            <div className="w-3/5 mx-auto mt-[10rem]">
+            <div id="news_blog" className="w-3/5 mx-auto mt-[10rem]">
                 <h1 className="font-serif font-bold text-4xl">{'Articles & News'}</h1>
-                <ul className="flex flex-wrap justify-between mt-10 pl-0">{props.blogs.map((el) => (
+                <ul className="flex !flex-wrap justify-between mt-10 pl-0">{props.blogs.map((el) => (
                     <li key={el.id} className="mb-10 w-[32%]">
                         <Link className="block p-[1rem] link hover:bg-[#E7E7E7] rounded-[2.5rem] border-2 duration-300" to={'/blog_detail'}>
                             <img src={`/src/assets/imgs/${el.image}`} alt="Image new"/>

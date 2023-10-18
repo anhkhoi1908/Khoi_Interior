@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { testimonials } from "../../../mocks/Home";
-import '../Style.css'
 
 const Testimonial = () => {
     return (

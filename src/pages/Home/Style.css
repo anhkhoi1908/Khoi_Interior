@@ -69,12 +69,6 @@
         font-size: 2.5rem;
     }
 
-
-    /* work */
-    #work ul {
-        justify-content: center;
-    }
-
     /* About_us */
     #about_us {
         display: flex;

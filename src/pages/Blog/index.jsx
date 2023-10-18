@@ -5,6 +5,7 @@ import LatestPost from "./LatestPost";
 import News from "./News";
 import { getBlogs, getLength } from "../../mocks/Blog";
 import Pagination_Mock from "../../components/Pagination/main.jsx"
+import './Style.css'
 
 const BlogPage = () => {
     const [page, setPage] = useState(1);

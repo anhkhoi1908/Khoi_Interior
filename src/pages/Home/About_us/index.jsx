@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Funiture from "../../../assets/imgs/Funiture.png"
 import { Link } from "react-router-dom";
-import '../Style.css'
 
 const About_Us = () => {
     return (
