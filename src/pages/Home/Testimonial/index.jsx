@@ -11,7 +11,7 @@ const Testimonial = () => {
                     {testimonials.map((el, index) => (
                         <li key={index} className="bg-white rounded-2xl py-10 px-6 mx-2">
                             <div className="flex items-center mb-8">
-                                <div><img src={`/src/assets/imgs/${el.image}`} width={50} height={50} alt="Image people"/></div>
+                                <div><img src={`/public/assets/imgs/${el.image}`} width={50} height={50} alt="Image people"/></div>
                                 <div className="ml-4">
                                     <h1 className="font-bold font-serif text-[1rem]">{el.name}</h1>
                                     <span>{el.add}</span>

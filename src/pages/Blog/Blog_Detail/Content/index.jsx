@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Blog_detail_1 from '../../../../assets/imgs/Blog_detail1.png'
+import Blog_detail_1 from '../../../../../public/assets/imgs/Blog_detail1.png'
 
 const Content = () => {
     return (

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Banner_Inner from '../../components/layout_inner/Banner_Inner'
-import Banner_Contact from "../../assets/imgs/Banner_contact.png"
+import Banner_Contact from "../../../public/assets/imgs/Banner_contact.png"
 import { inputs_contact } from "../../mocks/Contact";
 import { socialMedia } from "../../mocks/layout";
 import { Link } from "react-router-dom";

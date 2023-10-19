@@ -7,7 +7,7 @@ const Brand = () => {
             <ul className="brands flex flex-wrap w-3/5 mx-auto justify-between my-[10rem] items-center pl-0">
                 {brands.map((el, index) => (
                     <li key={index}>
-                        <img src={`/src/assets/imgs/${el}`} alt="Image brand"/>
+                        <img src={`/public/assets/imgs/${el}`} alt="Image brand"/>
                     </li>
                 ))}
             </ul>

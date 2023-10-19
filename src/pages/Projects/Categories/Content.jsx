@@ -18,7 +18,7 @@ export const Category_bedroom = () => {
                         <Link className="link" to={'/project_detail'}>
                             <div className="overflow-hidden">
                                 <img 
-                                    src={`/src/assets/imgs/${el.image}`} 
+                                    src={`/public/assets/imgs/${el.image}`} 
                                     alt="Image project"
                                     className="duration-300 hover:brightness-75 rounded-3xl"
                                 />
@@ -49,7 +49,7 @@ export const Category_bathroom = () => {
                         <Link className="link" to={'/project_detail'}>
                             <div className="overflow-hidden">
                                 <img 
-                                    src={`/src/assets/imgs/${el.image}`} 
+                                    src={`/public/assets/imgs/${el.image}`} 
                                     alt="Image project"
                                     className="duration-300 hover:brightness-75 rounded-3xl"
                                 />
@@ -80,7 +80,7 @@ export const Category_kitchen = () => {
                         <Link className="link" to={'/project_detail'}>
                             <div className="overflow-hidden">
                                 <img 
-                                    src={`/src/assets/imgs/${el.image}`} 
+                                    src={`/public/assets/imgs/${el.image}`} 
                                     alt="Image project"
                                     className="duration-300 hover:brightness-75 rounded-3xl"
                                 />
@@ -111,7 +111,7 @@ export const Category_living = () => {
                         <Link className="link" to={'/project_detail'}>
                             <div className="overflow-hidden">
                                 <img 
-                                    src={`/src/assets/imgs/${el.image}`} 
+                                    src={`/public/assets/imgs/${el.image}`} 
                                     alt="Image project"
                                     className="duration-300 hover:brightness-75 rounded-3xl"
                                 />

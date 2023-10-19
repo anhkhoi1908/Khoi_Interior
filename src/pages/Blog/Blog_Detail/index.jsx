@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../../components/layout_inner/Banner_Inner";
-import Banner_blog_detail from '../../../assets/imgs/Banner_blog_detail.png'
+import Banner_blog_detail from '../../../../public/assets/imgs/Banner_blog_detail.png'
 import Content from "./Content";
 import Quote from "./Quote";
 import SubContent from "./Subcontent";

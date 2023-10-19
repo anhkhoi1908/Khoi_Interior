@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong, faPhone } from "@fortawesome/free-solid-svg-icons";
-import Funiture from "../../../assets/imgs/Funiture.png"
+import Funiture from '../../../../public/assets/imgs/Funiture.png'
 import { Link } from "react-router-dom";
 
 const About_Us = () => {

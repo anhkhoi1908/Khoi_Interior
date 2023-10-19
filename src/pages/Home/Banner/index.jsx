@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import BannerImg from "../../../assets/imgs/Banner.jpg"
+import BannerImg from "../../../../public/assets/imgs/Banner.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";

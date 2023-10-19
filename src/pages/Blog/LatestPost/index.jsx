@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Latest_Post from "../../../assets/imgs/LatestPost.png"
+import Latest_Post from "../../../../public/assets/imgs/LatestPost.png"
 
 
 const LatestPost = () => {

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import MemberDetail from "../../../../assets/imgs/member_detail.png";
+import MemberDetail from "../../../../../public/assets/imgs/member_detail.png";
 import { sub_content } from "../../../../mocks/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";

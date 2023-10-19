@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../../../components/layout_inner/Banner_Inner";
-import Banner_Project_Detail from '../../../../assets/imgs/Banner_project_detail.png'
+import Banner_Project_Detail from '../../../../../public/assets/imgs/Banner_project_detail.png'
 import { details_cate, details_content } from "../../../../mocks/Projects";
 import { Link } from "react-router-dom";
-import Image_zoom from '../../../../assets/imgs/Image_project_detail.png'
-import Zoom_icon from '../../../../assets/imgs/Zoom_icon.png'
+import Image_zoom from '../../../../../public/assets/imgs/Image_project_detail.png'
+import Zoom_icon from '../../../../../public/assets/imgs/Zoom_icon.png'
 
 const Project_Detail = () => {
     return (

@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import Logo from "../../../assets/imgs/Logo.png";
+import Logo from '../../../../public/assets/imgs/Logo.png'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faList, faClose, faL } from "@fortawesome/free-solid-svg-icons";

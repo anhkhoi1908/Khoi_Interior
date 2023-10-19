@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../components/layout_inner/Banner_Inner";
-import Banner_Password from '../../assets/imgs/Banner_pass.jpg'
+import Banner_Password from '../../../public/assets/imgs/Banner_pass.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";

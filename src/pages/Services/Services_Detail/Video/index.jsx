@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import Image_video from '../../../../assets/imgs/Image_video.png'
-import Play_btn from '../../../../assets/imgs/Play Button.png'
+import Image_video from '../../../../../public/assets/imgs/Image_video.png'
+import Play_btn from '../../../../../public/assets/imgs/Play Button.png'
 import { Link } from "react-router-dom";
 
 const Video = () => {

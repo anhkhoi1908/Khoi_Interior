@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/imgs/Logo.png";
+import Logo from '../../../../public/assets/imgs/Logo.png'
 import { socialMedia, innerPage } from "../../../mocks/layout";
 
 const Footer = () => {

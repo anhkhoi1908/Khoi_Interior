@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
-import ErrorImg from '../../assets/imgs/error.png'
+import ErrorImg from '../../../public/assets/imgs/error.png'
 
 const ErrorPage = () => {
     return (

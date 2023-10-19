@@ -1,14 +1,14 @@
 import React, { Fragment, useState } from "react"
 import Banner_Inner from "../../components/layout_inner/Banner_Inner";
-import Banner_FAQ from "../../assets/imgs/Banner_faq.jpg"
+import Banner_FAQ from "../../../public/assets/imgs/Banner_faq.jpg"
 import {
     Accordion,
     AccordionHeader,
     AccordionBody,
 } from "@material-tailwind/react";
 import { faqs, project_questions } from "../../mocks/FAQ";
-import Faq_1 from '../../assets/imgs/faq_1.png'
-import Faq_2 from '../../assets/imgs/faq_2.png'
+import Faq_1 from '../../../public/assets/imgs/faq_1.png'
+import Faq_2 from '../../../public/assets/imgs/faq_2.png'
 
 function Icon({ id, open }) {
     return (

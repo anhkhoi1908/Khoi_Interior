@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Blog_detail_2 from '../../../../assets/imgs/Blog_detail2.png'
+import Blog_detail_2 from '../../../../../public/assets/imgs/Blog_detail2.png'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { socialMedia } from "../../../../mocks/layout";

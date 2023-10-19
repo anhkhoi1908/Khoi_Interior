@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import quoteImg from '../../../../assets/imgs/Quote.png'
+import quoteImg from '../../../../../public/assets/imgs/Quote.png'
 
 const Quote = () => {
     return (

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../components/layout_inner/Banner_Inner";
-import Banner_Change from "../../assets/imgs/Banner_change.jpg"
+import Banner_Change from "../../../public/assets/imgs/Banner_change.jpg"
 
 
 const ChangeBlog = () => {

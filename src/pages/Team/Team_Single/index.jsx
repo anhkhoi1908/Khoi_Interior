@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../../components/layout_inner/Banner_Inner";
-import Banner_team_single from '../../../assets/imgs/Banner_team_single.jpg'
+import Banner_team_single from '../../../../public/assets/imgs/Banner_team_single.jpg'
 import Member_Detail from "./Member_Detail";
 import Bio from "./Bio";
 import ContactMe from "./ContactMe";

@@ -10,9 +10,9 @@ const HowWeWork = () => {
                 <ul className="mt-20 [&>*:nth-child(even)]:flex-row-reverse pl-0">
                     {how_we_do.map((el, index) => (
                         <li key={index} className="flex items-center justify-evenly mb-20">
-                            <img src={`/src/assets/imgs/${el.image}`} width={400} height={300} className="img_main"/>
+                            <img src={`/public/assets/imgs/${el.image}`} width={400} height={300} className="img_main"/>
                             <div className="w-2/5">
-                                <img src={`/src/assets/imgs/${el.image_sub}`} className="img_sub"/>
+                                <img src={`/public/assets/imgs/${el.image_sub}`} className="img_sub"/>
                                 <h1 className="text-4xl font-serif font-bold mt-[4rem] mb-4">{el.title}</h1>
                                 <p>{el.content}</p>
                             </div>
