@@ -13,7 +13,7 @@ import './Style.css'
 const HomePage = () => {
     return (
         <Fragment>
-            {/* <Banner/> */}
+            <Banner/>
             <Work/>
             <About_Us/>
             <Testimonial/>
