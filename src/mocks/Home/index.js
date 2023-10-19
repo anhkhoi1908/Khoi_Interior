@@ -1,5 +1,11 @@
 import { faRightLong } from "@fortawesome/free-solid-svg-icons"
 
+import Brand1 from '../../../public/assets/imgs/01.svg'
+import Brand2 from '../../../public/assets/imgs/02.svg'
+import Brand3 from '../../../public/assets/imgs/03.svg'
+import Brand4 from '../../../public/assets/imgs/04.svg'
+import Brand5 from '../../../public/assets/imgs/05.svg'
+
 export const works = [
     {
         title: 'Project Plan',
@@ -42,7 +48,7 @@ export const testimonials = [
     }
 ];
 
-export const brands = ['01.svg', '02.svg', '03.svg', '04.svg', '05.svg'];
+export const brands = [Brand1, Brand2, Brand3, Brand4, Brand5];
 
 export const projects = [
     {
