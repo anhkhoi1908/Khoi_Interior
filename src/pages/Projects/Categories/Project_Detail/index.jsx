@@ -1,15 +1,12 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../../../components/layout_inner/Banner_Inner";
-import Banner_Project_Detail from '../../../../../public/assets/imgs/Banner_project_detail.png'
 import { details_cate, details_content } from "../../../../mocks/Projects";
 import { Link } from "react-router-dom";
-import Image_zoom from '../../../../../public/assets/imgs/Image_project_detail.png'
-import Zoom_icon from '../../../../../public/assets/imgs/Zoom_icon.png'
 
 const Project_Detail = () => {
     return (
         <Fragment>
-            <Banner_Inner img={Banner_Project_Detail} title={'Project Detail'} subtitle={'Home / Project_Detail'}/>
+            <Banner_Inner img={`/assets/imgs/Banner_project_detail.png`} title={'Project Detail'} subtitle={'Home / Project_Detail'}/>
             <div className="w-4/5 mt-[10rem] mx-auto">
                 <div className="flex">
                     <div className="flex justify-evenly">
@@ -35,8 +32,8 @@ const Project_Detail = () => {
             </div>
             <div className="w-[70%] mx-auto mt-[10rem] relative">
                 <Link className="link hover:brightness-75 duration-300">
-                    <div className=""><img src={Image_zoom}/></div>
-                    <div className="absolute left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%]"><img src={Zoom_icon}/></div>
+                    <div className=""><img src={`/assets/imgs/Image_project_detail.png`}/></div>
+                    <div className="absolute left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%]"><img src={`/assets/imgs/Zoom_icon.png`}/></div>
                 </Link>
             </div>
         </Fragment>

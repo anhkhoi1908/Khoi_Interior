@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import Logo from '../../../../public/assets/imgs/Logo.png'
 import { socialMedia, innerPage } from "../../../mocks/layout";
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
             <div className="w-[20rem] footer_social">
               <div className="footer_logo">
                 <Link to="#" className="flex items-center link">
-                  <img src={Logo} alt="Logo Page" width="30" height="30" />
+                  <img src={`/assets/imgs/Logo.png`} alt="Logo Page" width="30" height="30" />
                   <span className="ml-3 font-serif font-bold text-3xl">{"Interior"}</span>
                 </Link>
               </div>

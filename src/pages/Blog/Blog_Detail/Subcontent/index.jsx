@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Blog_detail_2 from '../../../../../public/assets/imgs/Blog_detail2.png'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { socialMedia } from "../../../../mocks/layout";
@@ -13,7 +12,7 @@ const SubContent = () => {
                 <p className="text-[#CDA274]">{'Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'}</p>
                 <p className="text-[#CDA274]">{'Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'}</p>
                 <p className="text-[#CDA274]">{'Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'}</p>
-                <div className="my-4"><img src={Blog_detail_2}/></div>
+                <div className="my-4"><img src={`/assets/imgs/Blog_detail2.png`}/></div>
                 <p>{'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'}</p>
 
                 <div className="flex justify-between items-center mt-20">

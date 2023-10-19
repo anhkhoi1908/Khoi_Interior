@@ -21,7 +21,7 @@ const Results = () => {
                                 </button>
                             </div>
                             <div className="w-1/2">
-                                <img src={`/public/assets/imgs/${el.image}`}/>
+                                <img src={`/assets/imgs/${el.image}`}/>
                             </div>
                         </li>
                     ))}

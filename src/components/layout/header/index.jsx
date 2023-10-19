@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import Logo from '../../../../public/assets/imgs/Logo.png'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faList, faClose, faL } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +14,7 @@ const Header = () => {
                 <div id="header" className="flex justify-evenly items-center h-[6rem] text-[#292F36] relative">
                     <div className="header_logo">
                         <Link to="#" className="flex items-center link">
-                            <img src={Logo} alt="Logo Page" width="30" height="30"/>
+                            <img src={`/assets/imgs/Logo.png`} alt="Logo Page" width="30" height="30"/>
                             <span className="ml-3 font-serif font-bold text-3xl">{"Interior"}</span>
                         </Link>
                     </div>

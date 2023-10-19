@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
-import ErrorImg from '../../../public/assets/imgs/error.png'
 
 const ErrorPage = () => {
     return (
@@ -20,7 +19,7 @@ const ErrorPage = () => {
                     </button>
                 </div>
                 <div className="w-1/2">
-                    <img src={ErrorImg}/>
+                    <img src={`/assets/imgs/error.png`}/>
                 </div>
             </div>
             </div>

@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong, faPhone } from "@fortawesome/free-solid-svg-icons";
-import Funiture from '../../../../public/assets/imgs/Funiture.png'
 import { Link } from "react-router-dom";
 
 const About_Us = () => {
@@ -31,7 +30,7 @@ const About_Us = () => {
                         </button>     
                     </div>
                     <div className="w-1/2 about_us_img">
-                        <img src={Funiture} alt="Funiture Image"/>
+                        <img src={`/assets/imgs/Funiture.png`} alt="Funiture Image"/>
                     </div>  
                 </div>
             </div>

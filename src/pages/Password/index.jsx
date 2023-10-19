@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Banner_Inner from "../../components/layout_inner/Banner_Inner";
-import Banner_Password from '../../../public/assets/imgs/Banner_pass.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
@@ -9,7 +8,7 @@ import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 const Password = () => {
     return (
         <Fragment>
-            <Banner_Inner title={'Restricted Page'} subtitle={'Home / Restricted Page'} img={Banner_Password}/>
+            <Banner_Inner title={'Restricted Page'} subtitle={'Home / Restricted Page'} img={`/assets/imgs/Banner_pass.jpg`}/>
             <div className="w-3/5 mx-auto mt-[10rem]">
                 <div className="bg-[#F4F0EC] rounded-3xl text-center px-[12rem] py-[8rem] flex flex-col items-center">
                     <h1 className="font-serif font-bold text-4xl">{'Password Protected'}</h1>

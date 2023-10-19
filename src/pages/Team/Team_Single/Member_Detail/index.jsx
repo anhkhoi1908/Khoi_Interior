@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import MemberDetail from "../../../../../public/assets/imgs/member_detail.png";
 import { sub_content } from "../../../../mocks/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -9,7 +8,7 @@ const Member_Detail = () => {
     return (
         <Fragment>
             <div className="w-3/5 mx-auto flex justify-between items-center mt-[10rem]">
-                <div className="w-1/2"><img src={MemberDetail}/></div>
+                <div className="w-1/2"><img src={`/assets/imgs/member_detail.png`}/></div>
                 <div className="w-[45%]">
                     <h1 className="font-serif font-bold text-4xl">{'John Smith'}</h1>
                     <p>{'Designer'}</p>

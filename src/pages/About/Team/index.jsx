@@ -15,7 +15,7 @@ const Team = () => {
                     {team.map((el, index) => (
                         <li key={index} className="team-member">
                             <div>
-                                <img src={`/public/assets/imgs/${el}`} width={220} height={400} alt="Image member"/>
+                                <img src={`/assets/imgs/${el}`} width={220} height={400} alt="Image member"/>
                                 <div className="team-member-hidden px-[2rem] w-[13.75rem] h-[21rem] bg-white rounded-2xl flex-col 
                                 justify-evenly hidden   ">
                                     <div>

@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Blog_detail_1 from '../../../../../public/assets/imgs/Blog_detail1.png'
 
 const Content = () => {
     return (
@@ -7,7 +6,7 @@ const Content = () => {
             <div>
                 <h1 className="font-serif font-bold text-4xl">{'Let\'s Get Solution for Building'}</h1>
                 <h1 className="font-serif font-bold text-4xl">{'Construction Work'}</h1>
-                <div className="my-4"><img src={Blog_detail_1} alt="blog-detail image"/></div>
+                <div className="my-4"><img src={`/assets/imgs/Blog_detail1.png`} alt="blog-detail image"/></div>
                 <div className="flex justify-between">
                     <p>{'26 December,2022'}</p>
                     <p>{'Interior / Design / Home / Decore'}</p>

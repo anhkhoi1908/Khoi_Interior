@@ -14,7 +14,7 @@ const News = () => {
                         {news.map((el, index) => (
                             <li key={index} className="mb-10 w-[32%]">
                                 <Link className="block p-[1rem] link hover:bg-[#E7E7E7] rounded-[2.5rem] border-2 duration-300">
-                                    <img src={`/public/assets/imgs/${el.image}`} alt="Image new"/>
+                                    <img src={`/assets/imgs/${el.image}`} alt="Image new"/>
                                     <h2 className="font-serif font-bold text-[1.4rem] mt-4">{el.content}</h2>
                                     <div className="flex items-center justify-between mt-4">
                                         <h1 className="text-[0.8rem]">{el.date}</h1>

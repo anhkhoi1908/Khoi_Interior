@@ -1,6 +1,5 @@
 import { React, Fragment, useState } from "react"
 import Banner_Inner from "../../components/layout_inner/Banner_Inner"
-import Banner_Blog from "../../../public/assets/imgs/Banner_blog.png"
 import LatestPost from "./LatestPost";
 import News from "./News";
 import { getBlogs, getLength } from "../../mocks/Blog";
@@ -33,7 +32,7 @@ const BlogPage = () => {
 
     return (
         <Fragment>
-            <Banner_Inner img={Banner_Blog} title={'Articles & News'} subtitle={'Home / Blog'}/>
+            <Banner_Inner img={`/assets/imgs/Banner_blog.png`} title={'Articles & News'} subtitle={'Home / Blog'}/>
             <LatestPost/>
             <News blogs={getBlogs(page, limit)}/>
             <Pagination_Mock 

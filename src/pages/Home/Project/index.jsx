@@ -18,7 +18,7 @@ const Project = () => {
                             <Link className="link">
                                 <div className="overflow-hidden">
                                     <img 
-                                        src={`/public/assets/imgs/${el.image}`} 
+                                        src={`/assets/imgs/${el.image}`} 
                                         alt="Image project"
                                         className="duration-300 hover:brightness-75"
                                     />

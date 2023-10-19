@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import BannerImg from "../../../../public/assets/imgs/Banner.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -9,7 +8,7 @@ const Banner = () => {
         <Fragment>
             <div id="banner" className="relative banner">
                 <div className="rounded-bl-[10rem] overflow-hidden">
-                    <img className="h-full w-full" src={BannerImg} alt="Banner Image"/>
+                    <img className="h-full w-full" src={`/assets/imgs/Banner.jpg`} alt="Banner Image"/>
                 </div>
                 <div className="banner-content inline-block w-1/2 absolute top-[50%] translate-y-[-50%] left-[20%]">
                     <h1 className="font-serif text-6xl text-[#292F36] font-bold">{"Let Your Home"}</h1>

@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Banner_Inner from '../../components/layout_inner/Banner_Inner'
-import Banner_Contact from "../../../public/assets/imgs/Banner_contact.png"
 import { inputs_contact } from "../../mocks/Contact";
 import { socialMedia } from "../../mocks/layout";
 import { Link } from "react-router-dom";
@@ -12,7 +11,7 @@ import './Style.css'
 const ContactPage = () => {
     return (
         <Fragment>
-            <Banner_Inner title={'Contact Us'} subtitle={'Home / Contact'} img={Banner_Contact}/>
+            <Banner_Inner title={'Contact Us'} subtitle={'Home / Contact'} img={`/assets/imgs/Banner_contact.png`}/>
             <div id="block" className="w-3/5 mx-auto mt-[10rem] relative">
                 <h1 className="font-serif font-bold text-4xl w-3/5 text-center mx-auto">
                 {'We love meeting new people and helping them.'}</h1>
