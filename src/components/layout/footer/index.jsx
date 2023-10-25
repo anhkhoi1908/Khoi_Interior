@@ -34,7 +34,7 @@ const Footer = () => {
                   <h1 className="font-serif text-2xl font-bold">{el.title}</h1>
                     <div className="flex flex-col">
                       {el.list.map((el) => (
-                        <Link className="my-4 link"><span className="hover:text-[#c9a575] duration-300">{el}</span></Link>
+                        <Link className="my-4 link" to={el.path}><span className="hover:text-[#c9a575] duration-300">{el.title}</span></Link>
                       ))}
                   </div>
                 </div>

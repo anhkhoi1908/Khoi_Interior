@@ -23,7 +23,7 @@ const About_Us = () => {
                             </div>
                         </div>     
                         <button className="bg-[#292F36] p-4 rounded-xl mt-8 hover:opacity-75 duration-300">
-                            <Link className="link">
+                            <Link className="link" to={'/projects'}>
                                 <span className="text-white mr-4">{"Get Free Estimate"}</span>
                                 <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>
                             </Link>

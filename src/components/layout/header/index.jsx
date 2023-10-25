@@ -13,7 +13,7 @@ const Header = () => {
             <header className="relative">
                 <div id="header" className="flex justify-evenly items-center h-[6rem] text-[#292F36] relative">
                     <div className="header_logo">
-                        <Link to="#" className="flex items-center link">
+                        <Link to={'/#'} className="flex items-center link">
                             <img src={`/assets/imgs/Logo.png`} alt="Logo Page" width="30" height="30"/>
                             <span className="ml-3 font-serif font-bold text-3xl">{"Interior"}</span>
                         </Link>
@@ -27,7 +27,7 @@ const Header = () => {
                     </div>
                     
                 </div>
-                <div id="nav_res" className="hidden absolute">
+                <div id="nav_res" className="hidden absolute">  
                     {!showNav && (
                         <button className="" onClick={() => setShowNav(true)}>
                             <FontAwesomeIcon icon={faList} size="2x"/>
