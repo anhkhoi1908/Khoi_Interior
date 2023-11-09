@@ -10,7 +10,7 @@ const Statistic = () => {
                         <li key={index} className="w-1/4 text-center relative before:content-[''] before:absolute before:block 
                         before:w-[0.1rem] before:h-full before:bg-[#c9a575] before:right-[-1rem] before:last:hidden">
                             <h1 className="text-6xl font-bold text-[#c9a575] mb-6 font-serif">{el.number}</h1>
-                            <p>{el.name}</p>
+                            <p className="font-jost">{el.name}</p>
                         </li>
                     ))}
                 </ul>

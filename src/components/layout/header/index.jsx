@@ -15,12 +15,12 @@ const Header = () => {
                     <div className="header_logo">
                         <Link to={'/#'} className="flex items-center link">
                             <img src={`/assets/imgs/Logo.png`} alt="Logo Page" width="30" height="30"/>
-                            <span className="ml-3 font-serif font-bold text-3xl">{"Interior"}</span>
+                            <span className="ml-3 font-dm-serif font-bold text-3xl">{"Interior"}</span>
                         </Link>
                     </div>
                     <div id="nav" className="nav flex items-center">
                         <ul className="flex mb-0 pl-0">{nav.map((el, index) => (
-                            <li key={index} className="mx-8">
+                            <li key={index} className="mx-8 font-jost">
                                 <Link to={el.path} className="link hover:text-[#c9a575] duration-300">{el.page}</Link></li>
                         ))}</ul>
                         <FontAwesomeIcon icon={faSearch} size="1x"/>

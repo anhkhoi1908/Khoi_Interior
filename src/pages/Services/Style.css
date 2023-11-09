@@ -6,7 +6,7 @@
     #how_we_work .img_main {
         width: 180px;
     }
-    #how_we_work .img_sub {
+    #how_we_work .img_sub { 
         width: 2rem;
     }
     #how_we_work h1 {
@@ -18,7 +18,7 @@
     }
 }
 
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+@media only screen and (min-width:  46.25em) and (max-width: 63.9375em) {
     #how_we_work {
         padding-top: 4rem;
         padding-bottom: 2rem;

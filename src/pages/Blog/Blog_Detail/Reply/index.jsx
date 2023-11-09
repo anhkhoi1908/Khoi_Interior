@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { inputs_contact } from "../../../../mocks/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRightLong } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Reply = () => {
@@ -37,7 +37,7 @@ const Reply = () => {
                     <button className="bg-[#292F36] rounded-2xl mt-10 hover:opacity-75 duration-300">
                         <Link className="px-6 py-3 block link">
                             <span className="mr-4 text-white">{"Send Now"}</span>
-                            <FontAwesomeIcon icon={faRightLong} className="text-[#c9a575]"/>
+                            <FontAwesomeIcon icon={faArrowRight} className="text-[#c9a575]"/>
                         </Link>
                     </button>
                 </ul>

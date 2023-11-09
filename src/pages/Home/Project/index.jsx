@@ -8,8 +8,8 @@ const Project = () => {
     return (
         <Fragment>
             <div id="projects" className="text-[#292F36]">
-                <h1 className="font-serif font-bold text-4xl text-center mb-4">{"Follow Our Projects"}</h1>
-                <p className="w-2/5 mx-auto text-center">
+                <h1 className="font-dm-serif font-bold text-4xl text-center mb-4">{"Follow Our Projects"}</h1>
+                <p className="w-2/5 mx-auto text-center font-jost tracking-wider">
                 {'It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.'}</p>
                 <ul className="flex w-3/5 flex-wrap mx-auto justify-between mt-20 [&>*:nth-child(2)]:rounded-tl-[4rem]
                 [&>*:nth-child(3)]:rounded-br-[4rem]">
@@ -25,8 +25,8 @@ const Project = () => {
                                 </div>
                                 <div className="flex items-center justify-between mt-4">
                                     <div>
-                                        <h1 className="font-bold font-serif text-[1rem]">{el.title}</h1>
-                                        <span>{el.fiel}</span>
+                                        <h1 className="font-bold font-dm-serif text-[1.4rem]">{el.title}</h1>
+                                        <span className="font-jost">{el.fiel}</span>
                                     </div>
                                     <button className="bg-[#F4F0EC] px-[1.1rem] py-[0.8rem] rounded-full">
                                         <FontAwesomeIcon icon={el.icon}/>

@@ -1,4 +1,5 @@
-import { faRightLong } from "@fortawesome/free-solid-svg-icons"
+// import { faRightLong } from "@fortawesome/free-solid-svg-icons"
+import { faChevronRight, faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 import Brand1 from '../../../public/assets/imgs/01.svg'
 import Brand2 from '../../../public/assets/imgs/02.svg'
@@ -11,19 +12,19 @@ export const works = [
         title: 'Project Plan',
         des: 'There are many variations of the passages of lorem lpsum from available, majority.',
         btn: 'Read more',
-        icon: faRightLong
+        icon: faArrowRight
     },
     {
         title: 'Interior Work',
         des: 'There are many variations of the passages of lorem lpsum from available, majority.',
         btn: 'Read more',
-        icon: faRightLong
+        icon: faArrowRight
     },
     {
         title: 'Realization',
         des: 'There are many variations of the passages of lorem lpsum from available, majority.',
         btn: 'Read more',
-        icon: faRightLong
+        icon: faArrowRight
     },
 ];
 
@@ -55,25 +56,25 @@ export const projects = [
         image: 'project1.png',
         title: 'Modern Kitchen',
         fiel: 'Decor / Artchitecture',
-        icon: faRightLong
+        icon: faChevronRight
     },
     {
         image: 'project2.png',
         title: 'Modern Kitchen',
         fiel: 'Decor / Artchitecture',
-        icon: faRightLong
+        icon: faChevronRight
     },
     {
         image: 'project3.png',
         title: 'Modern Kitchen',
         fiel: 'Decor / Artchitecture',
-        icon: faRightLong
+        icon: faChevronRight
     },
     {
         image: 'project4.png',
         title: 'Modern Kitchen',
         fiel: 'Decor / Artchitecture',
-        icon: faRightLong
+        icon: faChevronRight
     },
 ];
 
@@ -101,18 +102,18 @@ export const news = [
         image: 'new1.png',
         content: 'Let\'s Get Solution For Building Construction Work',
         date: '26 December, 2022',
-        icon: faRightLong
+        icon: faChevronRight
     },
     {
         image: 'new2.png',
         content: 'Low Cost Latest Invented Interior Designing Ideas',
         date: '26 December, 2022',
-        icon: faRightLong
+        icon: faChevronRight
     },
     {
         image: 'new3.png',
         content: 'Best For Any Office & Business Interior Solution',
         date: '25 December, 2022',
-        icon: faRightLong
+        icon: faChevronRight
     },
 ];
