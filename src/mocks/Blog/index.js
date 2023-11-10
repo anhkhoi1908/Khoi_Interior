@@ -1,4 +1,7 @@
+import React from "react";
+import { useState, useEffect } from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import axios from "axios";
 
 export const blogs = [
     {
@@ -129,16 +132,51 @@ export const blogs = [
     },
 ];
 
+// const post = [{}, {}, {}, {}, {}, {}];
+
+
+// export const fetchApi = () => {
+//     const [post, setPost] = useState([]);
+    
+//     useEffect(() => {
+//         axios.get('https://c2t-api.onrender.com/interior/news')
+//         .then(res => {setPost(res.data)})
+//         .catch(error => console.log(error))
+//     }, [])
+    
+// }
+
+
+// useEffect(() => {
+//     axios.get('https://c2t-api.onrender.com/interior/news')
+//     .then(res => {setPost(res.data)})
+//     .catch(error => console.log(error))
+// }, [])
+
 export const getBlogs = (page, limit) => {
+    const [post, setPost] = useState([]);
+    
+    useEffect(() => {
+        axios.get('https://c2t-api.onrender.com/interior/news')
+        .then(res => {setPost(res.data)})
+        .catch(error => console.log(error))
+    }, [])
     let array = [];
     for (let i = (page - 1) * limit; i < (page * limit); i++) {
-        array.push(blogs[i])
+        array.push(post[i])
     }
     return array;
 }
 
 export const getLength = () => {
-    return blogs.length;
+    const [post, setPost] = useState([]);
+    
+    useEffect(() => {
+        axios.get('https://c2t-api.onrender.com/interior/news')
+        .then(res => {setPost(res.data)})
+        .catch(error => console.log(error))
+    }, [])
+    return post.length;
 }
 
 export const news = [

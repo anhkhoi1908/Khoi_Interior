@@ -1,14 +1,23 @@
-import { React, Fragment, useState } from "react"
+import { React, Fragment, useState, useEffect } from "react"
 import Banner_Inner from "../../components/layout_inner/Banner_Inner"
 import LatestPost from "./LatestPost";
 import News from "./News";
 import { getBlogs, getLength } from "../../mocks/Blog";
 import Pagination_Mock from "../../components/Pagination/main.jsx"
 import './Style.css'
+import axios from "axios";
 
-const BlogPage = () => {
+const BlogPage = ({currentItems}) => {
     const [page, setPage] = useState(1);
-    const [limit, setLimit] = useState(6);
+    const [limit, setLimit] = useState(3);
+
+    // const [post, setPost] = useState([]);
+    
+    // useEffect(() => {
+    //     axios.get('https://c2t-api.onrender.com/interior/news')
+    //     .then(res => {setPost(res.data)})
+    //     .catch(error => console.log(error))
+    // }, [])
 
     let totalPage = Math.ceil(getLength() / limit);
 
@@ -34,14 +43,14 @@ const BlogPage = () => {
         <Fragment>
             <Banner_Inner img={`/assets/imgs/Banner_blog.png`} title={'Articles & News'} subtitle={'Home / Blog'}/>
             <LatestPost/>
-            <News blogs={getBlogs(page, limit)}/>
-            <Pagination_Mock 
-                totalPage={totalPage} 
-                page={page} 
-                limit={limit} 
-                siblings={1} 
-                onPageChange={handlePageChange}
-            />
+            <News currentItems={currentItems}/>
+                {/* <Pagination_Mock 
+                    totalPage={totalPage} 
+                    page={page} 
+                    limit={limit} 
+                    siblings={1} 
+                    onPageChange={handlePageChange}
+                /> */}
         </Fragment>
     );
 };
