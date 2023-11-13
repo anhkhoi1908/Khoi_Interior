@@ -5,12 +5,13 @@ import publicRoutes from './routes'
 import Header from './components/layout/header'
 import Footer from './components/layout/footer'
 import BackToTop from './components/BackToTop'
+import AutoScrollTop from './components/Auto'
 // import ErrorPage from './pages/Error'
 
 function App() {
-
   return (
     <Fragment>
+      <AutoScrollTop/>
       <Header/>
       <BackToTop/>  
       <Routes>

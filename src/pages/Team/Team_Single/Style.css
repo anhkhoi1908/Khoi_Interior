@@ -1,0 +1,25 @@
+@keyframes showinfor {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hidemember {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.team .team-member:hover img {
+    animation: hidemember 1s ease-out;
+}
+
+.team .team-member:hover .team-member-hidden{
+    animation: showinfor 1s ease-out;
+}

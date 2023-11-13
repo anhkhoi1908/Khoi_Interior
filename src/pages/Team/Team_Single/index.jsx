@@ -4,6 +4,7 @@ import Member_Detail from "./Member_Detail";
 import Bio from "./Bio";
 import ContactMe from "./ContactMe";
 import Team from "../../About/Team";
+import './Style.css'
 
 const Team_Single = () => {
     return (

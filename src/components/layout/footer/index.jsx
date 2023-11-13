@@ -29,12 +29,12 @@ const Footer = () => {
             
             <div className="flex">
             <div className="flex mx-16">
-              {innerPage.map((el) => (
-                <div className="w-[10rem]">
+              {innerPage.map((el, index) => (
+                <div key={index} className="w-[10rem]">
                   <h1 className="font-dm-serif text-2xl font-bold">{el.title}</h1>
                     <div className="flex flex-col">
-                      {el.list.map((el) => (
-                        <Link className="my-4 link" to={el.path}><span className="hover:text-[#c9a575] duration-300 font-jost">{el.title}</span></Link>
+                      {el.list.map((el, index) => (
+                        <Link key={index} className="my-4 link" to={el.path}><span className="hover:text-[#c9a575] duration-300 font-jost">{el.title}</span></Link>
                       ))}
                   </div>
                 </div>
